@@ -65,6 +65,7 @@ body{
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
+    resize: none;
     background-color: whitesmoke;
     font-size: 32px;
     height: 500px;
@@ -91,6 +92,7 @@ body{
     background-color: whitesmoke;
     box-shadow: 0 0 0 0;
     border: 0 none;
+    resize: none;
     outline: 0;
     width: auto;
     height: auto;
