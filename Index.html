@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenger</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="img__cabecalho" src="./imagems/Vector.png">
+    </header>
+    <main>
+        <div class="conteudo">
+            <div class="textos">
+                <div class="areaBotoes">
+                    <textarea type="text" id="textoDecodificar" placeholder="Letras acentuadas ficaram sem acento e maisculas viraram minusculas" name="textoDecodificar"></textarea>
+                        <div class="butoes">
+                            <button class="Codificar" onclick="Criptografando()">Codificar</button>
+                            <button class="Decodificar" onclick="Desriptografando()">Decodificar</button>
+                        </div>
+                </div>
+                <div id="textoDecodificado">
+                    <img class="img" src=".\imagems\sonic.jpg" alt="sonic mania">
+                    <p class="paragrafo1">Nenhuma mensagem encontrada</p>
+                    <p class="paragrafo2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+        
+        </div>
+    </main>
+    <script src="./script/app.js"></script>
+    <footer class="rodape">
+        <p>Desenvolvido por Joao "RoliXit" Miranda.</p>
+            <div class="rodape__links">
+                <a class="links" href="https://www.linkedin.com/in/joao-miranda-22075412b/"><img src="./imagems/linkedin.png"></a>
+                <a class="links" href="https://www.twitch.tv/rolixit"> <img src="./imagems/twitch.png"></a>
+            </div>
+    </footer>
+</body>
+</html>
