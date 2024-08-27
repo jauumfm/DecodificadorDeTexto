@@ -37,4 +37,5 @@ function copiando(){
     var textoCopiado = document.getElementById('textoConfigurado').innerHTML;
 
     navigator.clipboard.writeText(textoCopiado);
+    alert("Texto copiado");
 }
